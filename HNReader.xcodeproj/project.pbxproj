@@ -11,6 +11,8 @@
 		221F41C127C12F6600A5F65C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221F41C027C12F6600A5F65C /* ContentView.swift */; };
 		221F41C327C12F6900A5F65C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221F41C227C12F6900A5F65C /* Assets.xcassets */; };
 		221F41C627C12F6900A5F65C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221F41C527C12F6900A5F65C /* Preview Assets.xcassets */; };
+		221F41CE27C13F3400A5F65C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221F41CD27C13F3400A5F65C /* NetworkManager.swift */; };
+		221F41D027C13FF600A5F65C /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221F41CF27C13FF600A5F65C /* PostData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		221F41C027C12F6600A5F65C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		221F41C227C12F6900A5F65C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		221F41C527C12F6900A5F65C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		221F41CD27C13F3400A5F65C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		221F41CF27C13FF600A5F65C /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		221F41BD27C12F6600A5F65C /* HNReader */ = {
 			isa = PBXGroup;
 			children = (
+				221F41CC27C13F1D00A5F65C /* Models */,
 				221F41BE27C12F6600A5F65C /* HNReaderApp.swift */,
 				221F41C027C12F6600A5F65C /* ContentView.swift */,
 				221F41C227C12F6900A5F65C /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				221F41C527C12F6900A5F65C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		221F41CC27C13F1D00A5F65C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				221F41CD27C13F3400A5F65C /* NetworkManager.swift */,
+				221F41CF27C13FF600A5F65C /* PostData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221F41CE27C13F3400A5F65C /* NetworkManager.swift in Sources */,
+				221F41D027C13FF600A5F65C /* PostData.swift in Sources */,
 				221F41C127C12F6600A5F65C /* ContentView.swift in Sources */,
 				221F41BF27C12F6600A5F65C /* HNReaderApp.swift in Sources */,
 			);
