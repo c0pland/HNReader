@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		221F0BCC27C5217500507CAE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221F0BCB27C5217500507CAE /* DetailView.swift */; };
-		221F0BCE27C5292400507CAE /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221F0BCD27C5292400507CAE /* WebView.swift */; };
 		221F41BF27C12F6600A5F65C /* HNReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221F41BE27C12F6600A5F65C /* HNReaderApp.swift */; };
 		221F41C127C12F6600A5F65C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221F41C027C12F6600A5F65C /* ContentView.swift */; };
 		221F41C327C12F6900A5F65C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221F41C227C12F6900A5F65C /* Assets.xcassets */; };
@@ -19,7 +18,6 @@
 
 /* Begin PBXFileReference section */
 		221F0BCB27C5217500507CAE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		221F0BCD27C5292400507CAE /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		221F41BB27C12F6600A5F65C /* HNReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HNReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		221F41BE27C12F6600A5F65C /* HNReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNReaderApp.swift; sourceTree = "<group>"; };
 		221F41C027C12F6600A5F65C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,7 +43,6 @@
 			children = (
 				221F41C027C12F6600A5F65C /* ContentView.swift */,
 				221F0BCB27C5217500507CAE /* DetailView.swift */,
-				221F0BCD27C5292400507CAE /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,7 +165,6 @@
 				221F41CE27C13F3400A5F65C /* NetworkManager.swift in Sources */,
 				221F41D027C13FF600A5F65C /* PostData.swift in Sources */,
 				221F41C127C12F6600A5F65C /* ContentView.swift in Sources */,
-				221F0BCE27C5292400507CAE /* WebView.swift in Sources */,
 				221F0BCC27C5217500507CAE /* DetailView.swift in Sources */,
 				221F41BF27C12F6600A5F65C /* HNReaderApp.swift in Sources */,
 			);
