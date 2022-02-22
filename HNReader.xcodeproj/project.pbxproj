@@ -18,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		221F0BCB27C5217500507CAE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		221F0BCF27C52BD700507CAE /* HNReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HNReader.entitlements; sourceTree = "<group>"; };
 		221F41BB27C12F6600A5F65C /* HNReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HNReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		221F41BE27C12F6600A5F65C /* HNReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNReaderApp.swift; sourceTree = "<group>"; };
 		221F41C027C12F6600A5F65C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 		221F41BD27C12F6600A5F65C /* HNReader */ = {
 			isa = PBXGroup;
 			children = (
+				221F0BCF27C52BD700507CAE /* HNReader.entitlements */,
 				221F41CC27C13F1D00A5F65C /* Models */,
 				221F41BE27C12F6600A5F65C /* HNReaderApp.swift */,
 				221F0BCA27C5215500507CAE /* Views */,
@@ -294,6 +296,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HNReader/HNReader.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HNReader/Preview Content\"";
@@ -312,6 +316,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bennerbr.HNReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,6 +328,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HNReader/HNReader.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HNReader/Preview Content\"";
@@ -341,6 +348,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bennerbr.HNReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
